@@ -1,7 +1,5 @@
-from estoque import produtos
+print("Relatório do Sistema de Controle de Estoque")
 
-print("RELATÓRIO DE ESTOQUE")
-print("-" * 30)
-
-for produto, quantidade in produtos.items():
-    print(f"{produto}: {quantidade} unidades")
+print("Produto: Notebook")
+print("Quantidade: 10 unidades")
+print("Status: Estoque disponível")
