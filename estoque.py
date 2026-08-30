@@ -21,3 +21,4 @@ print("\nEstoque atualizado:")
 
 for produto, quantidade in produtos.items():
     print(f"{produto}: {quantidade} unidades")
+print("Sistema atualizado com sucesso!")
